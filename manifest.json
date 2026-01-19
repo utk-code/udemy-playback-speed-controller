@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Udemy Speed Controller",
+  "version": "1.0.0",
+  "description": "Control Udemy video playback speed from 0.25x to 6x",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.udemy.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.udemy.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
