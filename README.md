@@ -2,8 +2,10 @@
 
 A Chrome extension that lets you control Udemy video playback speed from 0.25x to 6x.
 
-## Features
+<img width="484" height="574" alt="image" src="https://github.com/user-attachments/assets/4019d6a6-894f-4c21-987a-d8d1f3fec7e3" />
 
+
+## Features
 - 🎯 Precise speed control with a slider (0.25x - 6x)
 - ⚡ Quick preset buttons for common speeds
 - 💾 Remembers your preferred speed across sessions
